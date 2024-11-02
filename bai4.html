@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form Login</title>
+        <link rel="stylesheet" href="bai4.css">
+    </head>
+    <body>
+        <div class="background">
+            <div class="form-login">
+                <h1>Log in</h1>
+                <form>
+                    <div class="login-email_password">
+                        <label for="email"><strong>Email</strong></label> <br>
+                        <input type="email" class="box-email_password" pattern=".+@gmail\.com" required>
+                    </div>
+                    <div class="login-email_password">
+                        <label for="password"><strong>Password</strong></label> <br>
+                        <input type="password" class="box-email_password" required > 
+                    </div>
+                    <div class="login">
+                        <form>
+                            <button type="submit"><strong>Log in</strong></button>
+                        </form>
+                    </div>                    
+                    <div class="checkbox">
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
